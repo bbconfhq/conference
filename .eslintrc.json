@@ -26,6 +26,7 @@
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks", "emotion", "prettier"],
   "rules": {
+    "quotes": ["error", "single"],
     "emotion/jsx-import": "error",
     "prettier/prettier": ["error"],
     "react-hooks/rules-of-hooks": "error",

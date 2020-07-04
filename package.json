@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "stylelint": "stylelint '**/*.ts*' --config /.stylelintrc.json"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -24,6 +25,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
@@ -31,7 +33,6 @@
   "devDependencies": {
     "@babel/plugin-transform-arrow-functions": "^7.10.4",
     "@emotion/babel-preset-css-prop": "^10.0.27",
-    "@stylelint/postcss-css-in-js": "^0.37.1",
     "@types/node": "^14.0.14",
     "@types/react": "^16.9.41",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
@@ -53,8 +54,10 @@
     "prettier": "^2.0.5",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^4.1.0",
+    "stylelint-processor-styled-components": "^1.10.0",
     "typescript": "^3.9.6"
   }
 }

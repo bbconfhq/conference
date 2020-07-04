@@ -1,6 +1,6 @@
-import { css } from '@emotion/core';
+import styled from '@emotion/styled';
 
-export default css`
+export default styled.div`
   max-width: 1400px;
   margin: 0 auto;
 `;

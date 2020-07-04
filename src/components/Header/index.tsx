@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import * as styles from './style';
+import { Container, Logo, LogoHighlight, NavigationWrapper, NavigationItem, NavigationAnchor } from './style';
 
 const Header = (): JSX.Element => {
   const router = useRouter();
@@ -31,31 +31,31 @@ const Header = (): JSX.Element => {
   };
 
   return (
-    <header css={styles.Header}>
+    <Container>
       <div>
         <Link href="/">
           <h1>
-            <a href="/" css={styles.Logo}>
-              BB<span css={styles.LogoHighlight}>Conf</span>
-            </a>
+            <Logo href="/">
+              BB<LogoHighlight>Conf</LogoHighlight>
+            </Logo>
           </h1>
         </Link>
       </div>
 
-      <div css={styles.NavContainer}>
+      <NavigationWrapper>
         <ul>
           {navItems.map(item => (
-            <li key={item.text} css={styles.NavItem} className={router.pathname === item.href ? 'active' : null}>
+            <NavigationItem key={item.text} className={router.pathname === item.href ? 'active' : null}>
               <Link href={item.href}>
-                <a href={item.href} onClick={onClickUnderConstruction} css={styles.NavLink}>
+                <NavigationAnchor href={item.href} onClick={onClickUnderConstruction}>
                   {item.text}
-                </a>
+                </NavigationAnchor>
               </Link>
-            </li>
+            </NavigationItem>
           ))}
         </ul>
-      </div>
-    </header>
+      </NavigationWrapper>
+    </Container>
   );
 };
 
