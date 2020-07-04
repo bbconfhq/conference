@@ -17,7 +17,7 @@ export const Hero = styled.h1`
   letter-spacing: -6px;
 
   background: linear-gradient(to right, #06a1c7, #3b79ff 70%);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
 
