@@ -1,10 +1,5 @@
 import styled from '@emotion/styled';
 
-export const Wrapper = styled.div`
-  max-width: 1100px;
-  margin: 0 auto;
-`;
-
 export const HeroContainer = styled.div`
   line-height: 1.2;
 `;

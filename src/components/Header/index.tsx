@@ -47,7 +47,7 @@ const Header = (): JSX.Element => {
           {navItems.map(item => (
             <NavigationItem key={item.text} className={router.pathname === item.href ? 'active' : null}>
               <Link href={item.href}>
-                <NavigationAnchor href={item.href} onClick={onClickUnderConstruction}>
+                <NavigationAnchor href={item.href} onClick={['Talks'].includes(item.text) ? null : onClickUnderConstruction}>
                   {item.text}
                 </NavigationAnchor>
               </Link>

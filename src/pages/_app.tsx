@@ -2,13 +2,16 @@
 import React from 'react';
 
 import { AppProps } from 'next/app';
+import { Wrapper } from '../components/styles';
 import Layout from '../components/Layout';
 import './style.css';
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <Layout>
-      <Component {...pageProps} />
+      <Wrapper>
+        <Component {...pageProps} />
+      </Wrapper>
     </Layout>
   );
 };
