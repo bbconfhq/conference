@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core';
 
-import { Button } from '../styles';
 import { HeroContainer, Hero, Caption } from './style';
+import Button from '../Button';
 
 const Intro = (): JSX.Element => {
   return (

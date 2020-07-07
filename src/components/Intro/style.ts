@@ -13,6 +13,7 @@ export const Hero = styled.h1`
 
   background: linear-gradient(to right, #06a1c7, #3b79ff 70%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
 
