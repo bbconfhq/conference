@@ -38,4 +38,9 @@ export const NavigationAnchor = styled.a`
   color: #fff;
   font-weight: 300;
   text-transform: uppercase;
+
+  .active &,
+  &:hover {
+    color: #4a9bff;
+  }
 `;
