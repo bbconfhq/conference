@@ -29,7 +29,7 @@ export const NavigationWrapper = styled.div`
 export const NavigationItem = styled.li`
   display: inline-block;
 
-  &:not(:first-child) {
+  &:not(:first-of-type) {
     padding-left: 2em;
   }
 `;
