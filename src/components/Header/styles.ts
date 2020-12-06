@@ -39,13 +39,3 @@ export const NavigationItem = styled.a`
   font-size: 1.125em;
   text-decoration: none;
 `;
-
-/*
-<header class="site-header">
-  <div class="wrapper site-header__wrapper">
-    <a href="#" class="brand"><img src="logo.svg" alt="brand" /></a>
-    <nav class="nav"></nav>
-    <a href="/track-shipment" class="button">Track</a>
-  </div>
-</header>
-* */
