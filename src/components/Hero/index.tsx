@@ -15,7 +15,7 @@ const Hero = () => (
     <SubTitle>
       <img src='/images/youtube@2x.png' alt='YouTube Logo' />
       {' '}
-      <time>2020. 12. 07.</time>
+      <time>2020. 12. 19.</time>
       <span>Live Streaming</span>
     </SubTitle>
     {
