@@ -1,18 +1,18 @@
 /** @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import {
+  Container, Logo, Navigation, NavigationItem, Wrapper,
+} from './styles';
+import { MenuItem } from '../../contants/types';
 
-import { Container, Logo, LogoHighlight, NavigationWrapper, NavigationItem, NavigationAnchor } from './style';
+const Header = () => {
+// const router = useRouter();
 
-const Header = (): JSX.Element => {
-  const router = useRouter();
-
-  const navItems: NavItem[] = [
+  const menuItems: MenuItem[] = [
     {
-      href: '/talks',
-      text: 'Talks',
+      href: '/sessions',
+      text: 'Sessions',
     },
     {
       href: '/archive',
@@ -24,39 +24,29 @@ const Header = (): JSX.Element => {
     },
   ];
 
-  const onClickUnderConstruction = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    // eslint-disable-next-line no-alert
-    alert('Under Construction');
+  const underConstruction = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>): void => {
     e.preventDefault();
+    alert('추후에 공개됩니다!');
   };
 
   return (
     <Container>
-      <div>
-        <Link href="/">
-          <h1>
-            <Logo href="/">
-              BB<LogoHighlight>Conf</LogoHighlight>
-            </Logo>
-          </h1>
-        </Link>
-      </div>
-
-      <NavigationWrapper>
-        <ul>
-          {navItems.map(item => (
-            <NavigationItem key={item.text} className={router.pathname === item.href ? 'active' : null}>
-              <Link href={item.href}>
-                <NavigationAnchor href={item.href} onClick={['Talks'].includes(item.text) ? null : onClickUnderConstruction}>
-                  {item.text}
-                </NavigationAnchor>
-              </Link>
+      <Wrapper>
+        <Logo>BBConf</Logo>
+      </Wrapper>
+      <Wrapper>
+        <Navigation>
+          {menuItems.map((item) => (
+            <NavigationItem
+              href={item.href}
+              onClick={underConstruction}
+            >
+              {item.text}
             </NavigationItem>
           ))}
-        </ul>
-      </NavigationWrapper>
+        </Navigation>
+      </Wrapper>
     </Container>
   );
 };
-
 export default Header;

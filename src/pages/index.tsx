@@ -1,12 +1,13 @@
 import React from 'react';
+import Layout from '../components/Layout';
 import Header from '../components/Header';
-import Intro from '../components/Intro';
+import Hero from '../components/Hero';
 
-export default (): JSX.Element => {
-  return (
-    <>
-      <Header />
-      <Intro />
-    </>
-  );
-};
+const IndexPage = () => (
+  <Layout>
+    <Header />
+    <Hero />
+  </Layout>
+);
+
+export default IndexPage;
