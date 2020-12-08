@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import Wavify from 'react-wavify';
 
 export const Title = styled.h1`
   color: #ffffff;
@@ -48,37 +47,64 @@ export const Container = styled.div`
   background: linear-gradient(100deg, #24A4EA, #379DEB 25%, #B76BF0);
 `;
 
-export const Wave = styled(Wavify)`
+export const Svg = styled.svg`
 
-  position: absolute;  
-  top: 100%;
+  position: fixed;
+  bottom: 0;
   
-  transform: translateY(-100%);
+  width: 100%;
+  height: 200px;
   
-  &.depth-1 {
-    height: 200px;
+  use {
+    animation: wave 25s cubic-bezier(.55,.5,.45,.5) infinite;
     
-    transform: translateY(-80%);
-    opacity: 0.75;
-  }
-  
-  &.depth-2 {
-    height: 240px;
-    
-    opacity: 0.5;
-  }
-  
-  &.depth-3 {
-    height: 220px;
-    
-    opacity: 0.33;
-  }
-  
-  &.depth-4 {
-    left: 0;
+    fill : #ffffff;
 
-    height: 280px;
+    &.depth-0 {
+      height: 200px;
 
-    opacity: 0.1;
+      opacity: 0.65;
+
+      animation-duration: 7s;
+      animation-delay: -2s;
+    }
+    
+    &.depth-1 {
+      height: 240px;
+
+      opacity: 0.5;
+
+      animation-duration: 10s;
+      animation-delay: -3s;
+    }
+    
+    &.depth-2 {
+      height: 220px;
+
+      opacity: 0.33;
+
+      animation-duration: 13s;
+      animation-delay: -4s;
+    }
+
+    &.depth-3 {
+      left: 0;
+
+      height: 280px;
+
+      opacity: 0.1;
+
+      animation-duration: 20s;
+      animation-delay: -5s;
+    }
+
+    @keyframes wave {
+      0% {
+       transform: translate3d(-90px,0,0);
+      }
+      100% {
+        transform: translate3d(85px,0,0);
+      }
+    }
   }
 `;
