@@ -1,19 +1,33 @@
 import styled from '@emotion/styled';
+import { breakpoints, media } from '../../utils/mediaquery';
 
 export const Title = styled.h1`
+  padding-top: 4rem;
+
   color: #ffffff;
   font-size: 6em;
   text-align: center;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  
+  ${media.greaterThan(breakpoints.small)} {
+    padding-top: 0;
+  }
 `;
 
 export const SubTitle = styled.h2`
+  display: block;
+  width: 100%;
   margin-top: 2em;
-  
+
   color: #ffffff;
   font-size: 2.25em;
   line-height: 1em;
+  text-align: center;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  
+  ${media.lessThan(breakpoints.small)} {
+
+  }
   
   img {
     max-height: 1em;
@@ -28,6 +42,11 @@ export const SubTitle = styled.h2`
   
   span {
     margin-left: 0.5em;
+    
+    ${media.lessThan(breakpoints.small)} {
+      display: block;
+      margin-top: 1rem;
+    }
   }
 `;
 
@@ -36,15 +55,19 @@ export const Container = styled.div`
   
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   height: 100vh;
-  min-height: 200px;
-  overflow: hidden;
-  
+
   font-family: Lato, -apple-system, BlinkMacSystemFont, sans-serif;
 
   background: linear-gradient(100deg, #24A4EA, #379DEB 25%, #B76BF0);
+
+  ${media.greaterThan(breakpoints.small)} {
+    align-items: center;
+    justify-content: center;
+  }
+  
+
 `;
 
 export const Svg = styled.svg`
@@ -53,7 +76,11 @@ export const Svg = styled.svg`
   bottom: 0;
   
   width: 100%;
-  height: 200px;
+  height: 15vh;
+  
+  ${media.greaterThan(breakpoints.small)} {
+    height: 200px;
+  }
   
   use {
     animation: wave 25s cubic-bezier(.55,.5,.45,.5) infinite;

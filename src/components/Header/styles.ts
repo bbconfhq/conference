@@ -1,14 +1,25 @@
 import styled from '@emotion/styled';
+import { media, breakpoints } from '../../utils/mediaquery';
 
 export const Container = styled.header`
   position: absolute;
   top: 0;
   z-index: 1;
-  
-  display: flex;
-  justify-content: space-between;
+
+  display: none;
+  justify-content: center;
   width: 100%;
-  padding: 2rem 4rem;
+  padding: 0.5rem 1rem;
+
+  text-align: center;
+
+  ${media.greaterThan(breakpoints.small)} {
+    display: flex;
+
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 4rem;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -25,13 +36,17 @@ export const Logo = styled.a`
 `;
 
 export const Navigation = styled.nav`
-  display: flex;
-  flex: 1 0 100%;
-  gap: 2rem;
-  justify-content: center;
-  padding: 1rem;
+  display: none;
 
   font-family: Roboto Mono, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  ${media.greaterThan(breakpoints.small)} {
+    display: flex;
+    flex: 1 0 100%;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+  }
 `;
 
 export const NavigationItem = styled.a`
