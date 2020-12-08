@@ -65,7 +65,7 @@ export const Svg = styled.svg`
 
       opacity: 0.65;
 
-      animation-duration: 7s;
+      animation-duration: 16s;
       animation-delay: -2s;
     }
     
@@ -74,8 +74,8 @@ export const Svg = styled.svg`
 
       opacity: 0.5;
 
-      animation-duration: 10s;
-      animation-delay: -3s;
+      animation-duration: 21s;
+      animation-delay: -7s;
     }
     
     &.depth-2 {
@@ -83,13 +83,11 @@ export const Svg = styled.svg`
 
       opacity: 0.33;
 
-      animation-duration: 13s;
-      animation-delay: -4s;
+      animation-duration: 25s;
+      animation-delay: -13s;
     }
 
     &.depth-3 {
-      left: 0;
-
       height: 280px;
 
       opacity: 0.1;
