@@ -8,7 +8,6 @@
     "stylelint-config-rational-order"
   ],
   "rules": {
-    "order/properties-order": "error",
     "plugin/rational-order": [
       true, {
         "border-in-box-model": true,
