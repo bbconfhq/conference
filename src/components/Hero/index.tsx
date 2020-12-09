@@ -15,7 +15,7 @@ const Hero = () => (
     <SubTitle>
       <img src='/images/youtube@2x.png' alt='YouTube Logo' />
       {' '}
-      <time>2020. 12. 19.</time>
+      <time>2021. 01. 23.</time>
       <span>Live Streaming</span>
     </SubTitle>
     <Svg viewBox='0 24 150 28' preserveAspectRatio='none' shapeRendering='auto'>
