@@ -45,6 +45,7 @@ export const Link = styled('a', {
 });
 
 export const SessionTitle = styled('h2', {
+  marginTop: '1.5rem',
   fontSize: '1.5rem',
   textAlign: 'center',
 })
