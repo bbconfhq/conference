@@ -5,7 +5,7 @@ import SessionList from '../components/SessionList';
 import { useFetchArchive } from '../hooks/useFetchArchive';
 
 const ArchivePage = () => {
-  const archive: unknown[] = []; // useFetchArchive().allArchiveJson.nodes;
+  const archive = useFetchArchive().allArchiveJson.nodes;
   return (
     <Layout>
       <Title>Archive</Title>

@@ -1,19 +1,260 @@
 [
   {
-    "year": "2021",
+    "year": "2021 Winter",
     "sessions": [
       {
-        "speaker": "최유빈",
-        "title": "MD5는 왜 머저리가 되었는가",
-        "category": "Crypto",
+        "speaker": "raararaara",
+        "title": "프로젝트만 많으면 네카라가 산으로 간다",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EB%A1%B8%5D600%EC%BD%98.pdf"
+      },
+      {
+        "speaker": "Yun",
+        "title": "숏코딩을 위한 Golfscript의 기초",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5BYun%5DGolfScript%20For%20Short%20Coding.pptx"
+      },
+      {
+        "speaker": "마녀",
+        "title": "알고리즘을 활용하는 간단한 텍스트 에디터 제작기",
+        "category": "Project",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EB%A7%88%EB%85%80%5D%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%BD%94%EB%93%9C%20%EC%97%90%EB%94%94%ED%84%B0%20%EC%A0%9C%EC%9E%91%EA%B8%B0.pdf"
+      },
+      {
+        "speaker": "김기동",
+        "title": "HTML이 생각보다 어려운 이유",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EA%B9%80%EA%B8%B0%EB%8F%99%5Dwhy-html-is-complicated.pdf"
+      },
+      {
+        "speaker": "Lawali",
+        "title": "동적 연결성과 쿼리 (BOJ 17465)",
+        "category": "Algorithm",
         "file_url": ""
       },
       {
-        "speaker": "최유빈",
-        "title": "MD5는 왜 머저리가 되었는가",
-        "category": "Crypto",
-        "file_url": "http://www.google.com"
-      }
+        "speaker": "머린",
+        "title": "취업시장에서 나를 세일즈하는 좋은 방법",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EB%A8%B8%EB%A6%B0%5D%EC%B7%A8%EC%97%85%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C%20%EB%82%98%EB%A5%BC%20%EC%84%B8%EC%9D%BC%EC%A6%88%ED%95%98%EB%8A%94%20%EC%A2%8B%EC%9D%80%20%EB%B0%A9%EB%B2%95.pdf"
+      },
+      {
+        "speaker": "아잉",
+        "title": "웹 앱 서비스 기획부터 개발을 거쳐 배포까지 feat.절망편",
+        "category": "Project",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EC%95%84%EC%9E%89%5D%EB%8C%80%ED%95%99%EC%83%9D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98%20%EC%83%81%EC%83%81%EA%B3%BC%20%ED%98%84%EC%8B%A4.pdf"
+      },
+      {
+        "speaker": "백발백준",
+        "title": ".NET 6와 MAUI 맛보기",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EB%B0%B1%EB%B0%9C%EB%B0%B1%EC%A4%80%5D.NET%206%EC%99%80%20MAUI%20%EB%A7%9B%EB%B3%B4%EA%B8%B0.pdf"
+      },
+      {
+        "speaker": "Yun",
+        "title": "우당탕탕 티스토리 운영툴 개발 삽질기",
+        "category": "Project",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5BYun%5D%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC%20%EC%9A%B4%EC%98%81%ED%88%B4%20%EA%B0%9C%EB%B0%9C%20%EC%82%BD%EC%A7%88%EA%B8%B0.pptx"
+      },
+      {
+        "speaker": "김기동",
+        "title": "나쁜 이력서를 쓰지 않는 법",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EA%B9%80%EA%B8%B0%EB%8F%99%5Dhow-to-writing-resume.pdf"
+      },
+      {
+        "speaker": "이야호",
+        "title": "나는 약 20년 동안 어떻게 살았을까?",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5B%EC%9D%B4%EC%95%BC%ED%98%B8%5D%EC%9D%B4%EC%95%BC%ED%98%B8%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80%20%EB%90%98%EC%97%88%EB%8A%94%EA%B0%80.pdf"
+      },
+      {
+        "speaker": "CreeJee",
+        "title": "급조된 백베콘 - RN 프로젝트 회고",
+        "category": "Project",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-6/%5BCreeJee%5D%EB%B0%B1%EB%B2%A0%EC%BD%98_6%ED%9A%8C%EC%B0%A8_%EB%AC%B4%EC%A7%80%EC%84%B1%EB%B0%9C%ED%91%9C.pdf"
+      },
+    ]
+  },
+  {
+    "year": "2021 Spring",
+    "sessions": [
+      {
+        "speaker": "Yun",
+        "title": "Kakao 입사 후기",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-5/%5BYun%5Dkakao%20%EC%9E%85%EC%82%AC%20%ED%9B%84%EA%B8%B0.pptx"
+      },
+      {
+        "speaker": "까쁘",
+        "title": "병렬처리의 또 다른 방법 SIMD",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-5/%5B%EA%B9%8C%EC%81%98%5D%EB%B3%91%EB%A0%AC%EC%B2%98%EB%A6%AC%EC%9D%98%20%EB%98%90%20%EB%8B%A4%EB%A5%B8%20%EB%B0%A9%EB%B2%95%20SIMD.pdf"
+      },
+      {
+        "speaker": "머린",
+        "title": "How to do your Machine Learning Project well",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-5/%5B%EB%A8%B8%EB%A6%B0%EC%9D%B4%5DHow%20to%20do%20your%20Machine%20Project%20well.pdf"
+      },
+      {
+        "speaker": "백발백준",
+        "title": "나의 산업기능요원 후기",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-5/%5B%EB%B0%B1%EB%B0%9C%EB%B0%B1%EC%A4%80%5D%EB%82%98%EC%9D%98%20%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90%20%ED%9B%84%EA%B8%B0.pptx"
+      },
+    ]
+  },
+  {
+    "year": "2020 Winter",
+    "sessions": [
+      {
+        "speaker": "Yun",
+        "title": "UB in cpp",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-4/%5BYun%5DUB%20in%20cpp.pptx"
+      },
+      {
+        "speaker": "구팔",
+        "title": "가성비 좋은 토이프로젝트",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-4/%5B%EA%B5%AC%ED%8C%94%5D%EA%B0%80%EC%84%B1%EB%B9%84%20%EC%A2%8B%EC%9D%80%20%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.pdf"
+      },
+      {
+        "speaker": "까쁘",
+        "title": "Smart Pointer in C++",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-4/%5B%EA%B9%8C%EC%81%98%5DSmart%20Pointer%20in%20C%2B%2B.pptx"
+      },
+      {
+        "speaker": "마녀",
+        "title": "변수 타입 추론",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-4/%5B%EB%A7%88%EB%85%80%5D%EB%B3%80%EC%88%98%20%ED%83%80%EC%9E%85%20%EC%B6%94%EB%A1%A0.pptx"
+      },
+      {
+        "speaker": "머린",
+        "title": "Clean Code for ML",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-4/%5B%EB%A8%B8%EB%A6%B0%5DClean%20Code%20for%20ML.pptx"
+      },
+      {
+        "speaker": "CreeJee",
+        "title": "대충 PHP서비스를 사람같이 만드는 법 feat. 회고",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-4/%5B%ED%81%AC%EB%A6%AC%EC%A7%80%5D%EB%B0%B1%EB%B0%B0%EC%BD%98%28%EB%A7%9D%ED%95%A8%29.pptx"
+      },
+    ]
+  },
+  {
+    "year": "2019 Winter",
+    "sessions": [
+      {
+        "speaker": "The Salamander",
+        "title": "Christmas CTF Write Up",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-3/%5BThe%20Salamander%5DChristmas%20CTF%20Write%20Up.pptx"
+      },
+      {
+        "speaker": "Yun",
+        "title": "C++ Trap Solution",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-3/%5BYun%5DC%2B%2B%20Trap%20Solution.pptx"
+      },
+      {
+        "speaker": "마녀",
+        "title": "Convolution & CNN",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-3/%5B%EB%A7%88%EB%85%80%5DConvolution%20%26%20CNN.pptx"
+      },
+      {
+        "speaker": "머린",
+        "title": "Build a big data pipeline",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-3/%5B%EB%A8%B8%EB%A6%B0%5DBuild%20a%20big%20data%20pipeline.pptx"
+      },
+      {
+        "speaker": "절만못",
+        "title": "Unsupervised Deep Learning",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-3/%5B%EC%A0%88%EB%A7%8C%EB%AA%BB%5DUnsupervised%20Deep%20Learning.pptx"
+      },
+      {
+        "speaker": "김기동",
+        "title": "신입 개발자를 위한 Git",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-3/%5B%EC%BB%A4%EB%8F%99%5D%EC%8B%A0%EC%9E%85%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20Git.pdf"
+      },
+      {
+        "speaker": "코노",
+        "title": "Do you know DB?",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-3/%5B%EC%BD%94%EB%85%B8%5DDo%20you%20know%20DB%EF%BC%9F.pptx"
+      },
+    ]
+  },
+  {
+    "year": "2019 Summer",
+    "sessions": [
+      {
+        "speaker": "C만함",
+        "title": "C로 PS하기",
+        "category": "Algorithm",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-2/%5BC%EB%A7%8C%ED%95%A8%5DC%EB%A1%9C%20PS%ED%95%98%EA%B8%B0.pptx"
+      },
+      {
+        "speaker": "렌메",
+        "title": "EDIT DISTANCE ALGORITHM",
+        "category": "Algorithm",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-2/%5B%EB%A0%8C%EB%A9%94%5DEDIT%20DISTANCE.pptx"
+      },
+      {
+        "speaker": "머린",
+        "title": "너의 얼굴은",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-2/%5B%EB%A8%B8%EB%A6%B0%5D%EB%84%88%EC%9D%98%20%EC%96%BC%EA%B5%B4%EC%9D%80.pptx"
+      },
+      {
+        "speaker": "코노",
+        "title": "Bipartite Matching & Network Flow",
+        "category": "Algorithm",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-2/%5B%EC%BD%94%EB%85%B8%5DBipartiteMatching_NetworkFlow.pptx"
+      },
+      {
+        "speaker": "ㅌㅐ현",
+        "title": "개인정보 비식별화",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-2/%5B%ED%83%9C%ED%98%84%5D%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EB%B9%84%EC%8B%9D%EB%B3%84%ED%99%94.pptx"
+      },
+    ]
+  },
+  {
+    "year": "2018 Winter",
+    "sessions": [
+      {
+        "speaker": "Yun",
+        "title": "",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-1/%5BYun%5DShort%20Coding%20with%20C.pptx"
+      },
+      {
+        "speaker": "머린",
+        "title": "Marinee의 Deep thr..",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-1/%5B%EB%A8%B8%EB%A6%B0%5DBaekJun%20Conference.ppt"
+      },
+      {
+        "speaker": "윈포",
+        "title": "Neural Architecture Search",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-1/%5B%EC%9C%88%ED%8F%AC%5DNeural%20Architecture%20Search%20%5BFinal%5D.pptx"
+      },
+      {
+        "speaker": "김기동",
+        "title": "정규표현식 시작하기",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/BBConf/bbconf-1/%5B%EC%BB%A4%EB%8F%99%5D%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.pptx"
+      },
     ]
   }
 ]
