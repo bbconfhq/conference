@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from '../components/Layout';
-import { Title, Link, Divider, AboutText } from './index.style';
+import { Title, Link, Divider, AboutText } from '../common.styles';
 import { useFetchSession } from '../hooks/useFetchSession';
 
 const AboutPage = () => {

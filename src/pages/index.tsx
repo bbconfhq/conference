@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from '../components/Layout';
-import { Title, Time, Location, Link, SessionTitle, Divider } from './index.style';
+import { Title, Time, Location, Link, SessionTitle, Divider } from '../common.styles';
 import { useFetchSession } from '../hooks/useFetchSession';
 import SessionList from '../components/SessionList';
 

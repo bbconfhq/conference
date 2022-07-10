@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from '../components/Layout';
-import { Title, SessionTitle, Divider } from './index.style';
+import { Title, SessionTitle, Divider } from '../common.styles';
 import SessionList from '../components/SessionList';
 import { useFetchArchive } from '../hooks/useFetchArchive';
 
