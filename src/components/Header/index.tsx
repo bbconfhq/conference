@@ -1,52 +1,21 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
 import React from 'react';
-import {
-  Container, Logo, Navigation, NavigationItem, Wrapper,
-} from './styles';
-import { MenuItem } from '../../contants/types';
+import { Container, InternalNavContainer, Nav } from './style';
+import { Link } from 'gatsby';
 
 const Header = () => {
-// const router = useRouter();
-
-  const menuItems: MenuItem[] = [
-    {
-      href: '/sessions',
-      text: 'Sessions',
-    },
-    {
-      href: '/archive',
-      text: 'Archive',
-    },
-    {
-      href: '/about',
-      text: 'About',
-    },
-  ];
-
-  const underConstruction = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>): void => {
-    e.preventDefault();
-    alert('추후에 공개됩니다!');
-  };
-
   return (
     <Container>
-      <Wrapper>
-        <Logo>BBConf</Logo>
-      </Wrapper>
-      <Wrapper>
-        <Navigation>
-          {menuItems.map((item) => (
-            <NavigationItem
-              href={item.href}
-              onClick={underConstruction}
-            >
-              {item.text}
-            </NavigationItem>
-          ))}
-        </Navigation>
-      </Wrapper>
+      <Nav>
+        <div>
+          <Link to={'/'}>Home</Link>
+        </div>
+        <InternalNavContainer>
+          <Link to={'/archive'}>Archive</Link>
+          <Link to={'/about'}>About</Link>
+        </InternalNavContainer>
+      </Nav>
     </Container>
-  );
-};
+  )
+}
+
 export default Header;
