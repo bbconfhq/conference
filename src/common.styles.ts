@@ -33,6 +33,7 @@ export const Location = styled('span', {
 export const Link = styled('a', {
   display: 'block',
   marginTop: '1rem',
+  fontSize: '1.25rem',
   textDecoration: 'none',
 
   variants: {
