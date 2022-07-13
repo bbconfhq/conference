@@ -2,6 +2,7 @@ import { styled } from '../../stitches.config';
 
 export const Container = styled('header', {
   marginBottom: '2rem',
+  padding: '0 1rem',
 });
 
 export const Nav = styled('nav', {
