@@ -28,6 +28,14 @@ export const Location = styled('span', {
   textAlign: 'center',
   fontSize: '1.25rem'
 
+});
+
+export const ApplicationLabel = styled('span', {
+  display: 'block',
+  margin: '0.75rem auto',
+  textAlign: 'center',
+  fontSize: '1rem',
+  fontStyle: 'italic',
 })
 
 export const Link = styled('a', {
