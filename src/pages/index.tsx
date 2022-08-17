@@ -10,7 +10,7 @@ const IndexPage = () => {
     <Layout>
       <Title>BBConf 2022</Title>
       <Time dateTime={'2022-08-20'}>2022년 8월 20일</Time>
-      <Location>토즈모임센터 선릉점 9층</Location>
+      <Location> 토즈모임센터 선릉점 9층 <a href="https://naver.me/xorKYJyG ">[지도]</a></Location>
       <ApplicationLabel>참가 신청이 마감되었습니다.</ApplicationLabel>
 
       <Divider />
