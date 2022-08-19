@@ -1,31 +1,19 @@
 [
   {
-    "speaker": "최유빈",
-    "title": "MD5는 왜 머저리가 되었는가"
+    "speaker": "구팔",
+    "title": "프로토콜 씹고뜯고맛보고즐기기"
   },
   {
-    "speaker": "김형식",
-    "title": "차량개발과 통신프로토콜과 이직"
+    "speaker": "최유빈",
+    "title": "MD5는 왜 머저리가 되었는가"
   },
   {
     "speaker": "백발백준",
     "title": "PS는 개발자 취업에 도움이 될까?"
   },
   {
-    "speaker": "패트",
-    "title": "대학원 진학을 고민하는 그대에게"
-  },
-  {
-    "speaker": "패트",
-    "title": "Large-Scale Graph Analysis"
-  },
-  {
     "speaker": "델타",
     "title": "맛없는 루비 2 먹어보기 (feat. BOJ 11392)"
-  },
-  {
-    "speaker": "구팔",
-    "title": "프로토콜 씹고뜯고맛보고즐기기"
   },
   {
     "speaker": "이야호",
@@ -38,5 +26,17 @@
   {
     "speaker": "Lawali",
     "title": "탑트리 간단하게 알아보기"
+  },
+  {
+    "speaker": "패트",
+    "title": "대학원 진학을 고민하는 그대에게"
+  },
+  {
+    "speaker": "패트",
+    "title": "Large-Scale Graph Analysis"
+  },
+  {
+    "speaker": "김형식",
+    "title": "차량개발과 통신프로토콜과 이직"
   }
 ]
