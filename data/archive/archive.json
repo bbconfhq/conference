@@ -1,5 +1,70 @@
 [
   {
+    "year": "2022 Summer",
+    "sessions": [
+      {
+        "speaker": "구팔",
+        "title": "프로토콜 씹고뜯고맛보고즐기기",
+        "category": "Knowledge",
+        "file_url": ""
+      },
+      {
+        "speaker": "최유빈",
+        "title": "MD5는 왜 머저리가 되었는가",
+        "category": "Knowledge",
+        "file_url": ""
+      },
+      {
+        "speaker": "백발백준",
+        "title": "PS는 개발자 취업에 도움이 될까?",
+        "category": "Life",
+        "file_url": ""
+      },
+      {
+        "speaker": "델타",
+        "title": "맛없는 루비 2 먹어보기 (feat. BOJ 11392)",
+        "category": "Algorithm",
+        "file_url": ""
+      },
+      {
+        "speaker": "이야호",
+        "title": "파이썬 클린코드",
+        "category": "Knowledge",
+        "file_url": ""
+      },
+      {
+        "speaker": "흔한뉴비",
+        "title": "개발자의 번아웃과 슬럼프",
+        "category": "Life",
+        "file_url": ""
+      },
+      {
+        "speaker": "Lawali",
+        "title": "탑트리 간단하게 알아보기",
+        "category": "Algorithm",
+        "file_url": ""
+      },
+      {
+        "speaker": "패트",
+        "title": "대학원 진학을 고민하는 그대에게",
+        "category": "Life",
+        "file_url": ""
+      },
+      {
+        "speaker": "패트",
+        "title": "Large-Scale Graph Analysis",
+        "category": "Knowledge",
+        "file_url": ""
+      },
+      {
+        "speaker": "김형식",
+        "title": "임베디드 지옥",
+        "category": "Knowledge",
+        "file_url": ""
+      }
+    ]
+  }
+  {
     "year": "2021 Winter",
     "sessions": [
       {

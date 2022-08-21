@@ -8,10 +8,10 @@ const IndexPage = () => {
   const sessions = useFetchSession().allSessionsJson.nodes;
   return (
     <Layout>
-      <Title>BBConf 2022</Title>
-      <Time dateTime={'2022-08-20'}>2022년 8월 20일</Time>
-      <Location>토즈모임센터 선릉점 9층 <a href="https://naver.me/xorKYJyG ">[지도]</a></Location>
-      <ApplicationLabel>참가 신청이 마감되었습니다.</ApplicationLabel>
+      <Title>BBConf 2022 - 2nd</Title>
+      <Time dateTime={'2022-12-24'}>2022년 12월 예정</Time>
+      <Location></Location>
+      <ApplicationLabel></ApplicationLabel>
 
       <Divider />
 
