@@ -8,15 +8,15 @@ const IndexPage = () => {
   const sessions = useFetchSession().allSessionsJson.nodes;
   return (
     <Layout>
-      <Title>BBConf 2022 - 2nd</Title>
-      <Time dateTime={'2022-12-24'}>2022년 12월 예정</Time>
-      <Location></Location>
-      <ApplicationLabel></ApplicationLabel>
+      <Title>BBConf 2023</Title>
+      <Time>2023년 2월 예정</Time>
+      <Location>장소: TBD</Location>
+      <ApplicationLabel><Link href='https://forms.gle/ZbwzGfk8h12rjMaJ9'>참가 신청</Link></ApplicationLabel>
 
       <Divider />
 
       <SessionTitle>Sessions</SessionTitle>
-      <SessionList sessions={sessions} />
+      <SessionList sessions={sessions}/>
 
     </Layout>
     )

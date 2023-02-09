@@ -4,7 +4,6 @@ import { Title, Link, Divider, AboutText } from '../common.styles';
 import { useFetchSession } from '../hooks/useFetchSession';
 
 const AboutPage = () => {
-  const sessions = useFetchSession().allSessionsJson.nodes;
   return (
     <Layout>
       <Title>About</Title>
