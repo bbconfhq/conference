@@ -9,9 +9,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Title>BBConf 2023</Title>
-      <Time>2023년 2월 예정</Time>
-      <Location>장소: TBD</Location>
-      <ApplicationLabel><Link href='https://forms.gle/ZbwzGfk8h12rjMaJ9'>참가 신청</Link></ApplicationLabel>
+      <Time dateTime={'2023-02-26'}>2023년 2월 26일</Time>
+      <Location>토즈 강남토즈타워점 <a href="https://map.naver.com/v5/entry/place/21660996">[지도]</a></Location>
 
       <Divider />
 
