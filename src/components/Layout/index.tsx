@@ -10,7 +10,7 @@ const Index = ({ children }: PropsWithChildren) => {
   return (
     <Container>
       <Helmet>
-        <title>BBConf 2022</title>
+        <title>BBConf</title>
         <meta name="description" content="백준푸는방 컨퍼런스" />
         <meta property="og:url" content="https://bbconf.kr/" />
         <meta property="og:type" content="website" />
