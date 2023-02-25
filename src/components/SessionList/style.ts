@@ -1,9 +1,5 @@
 import { styled } from '../../stitches.config';
 
-export const Container = styled('ul', {
-  padding: '0 1rem',
-});
-
 export const Item = styled('li', {
   width: '100%',
   listStyle: 'none',
