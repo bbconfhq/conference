@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Title, Item, Speaker, Container, Category } from './style';
+import { Title, Item, Speaker, Category } from './style';
 
 type Sessions = Queries.SessionsQuery['allSessionsJson']['nodes']
   | Queries.ArchiveQuery['allArchiveJson']['nodes'][number]['sessions'];
@@ -11,7 +11,7 @@ type Props = {
 
 const SessionList: React.FC<Props> = ({ sessions }) => {
   return (
-    <Container>
+    <ul>
       {
         sessions?.map(session => {
           if (session === null) {
@@ -28,7 +28,7 @@ const SessionList: React.FC<Props> = ({ sessions }) => {
             </Item>
           );
         })}
-    </Container>
+    </ul>
   );
 };
 

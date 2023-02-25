@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { globalStyles } from '../../stitches.config';
 import Header from '../Header';
 
-import {Container} from './styles';
+import {ChildrenContainer, Container} from './styles';
 
 const Index = ({ children }: PropsWithChildren) => {
   globalStyles();
@@ -26,7 +26,9 @@ const Index = ({ children }: PropsWithChildren) => {
         <link rel='shortcut icon' href='/favicon/favicon.ico' type='image/x-icon'></link>
       </Helmet>
       <Header />
-      { children }
+      <ChildrenContainer>
+        { children }
+      </ChildrenContainer>
     </Container>
   );
 };

@@ -5,16 +5,16 @@ import Layout from '../components/Layout';
 import { styled } from '../stitches.config';
 
 const List = styled('ol', {
-    fontSize: '1.125rem',
-})
+  fontSize: '1.125rem',
+});
 
 const ListItem = styled('li', {
-    marginLeft: '1.25rem',
-    lineHeight: '1.75rem',
-    '&:not(:last-child)': {
-        marginBottom: '1rem',
-    },
-})
+  marginLeft: '1.25rem',
+  lineHeight: '1.75rem',
+  '&:not(:last-child)': {
+    marginBottom: '1rem',
+  },
+});
 
 const GuidelinePage = () => {
   return (
