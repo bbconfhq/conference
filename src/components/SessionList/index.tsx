@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Title, Item, Speaker, Container, Category } from './style';
 
 type Sessions = Queries.SessionsQuery['allSessionsJson']['nodes']
@@ -6,7 +7,7 @@ type Sessions = Queries.SessionsQuery['allSessionsJson']['nodes']
 
 type Props = {
   sessions: Sessions;
-}
+};
 
 const SessionList: React.FC<Props> = ({ sessions }) => {
   return (
@@ -25,10 +26,10 @@ const SessionList: React.FC<Props> = ({ sessions }) => {
               }
               <Speaker>{session.speaker}</Speaker>
             </Item>
-        )
-      })}
+          );
+        })}
     </Container>
-  )
-}
+  );
+};
 
 export default SessionList;

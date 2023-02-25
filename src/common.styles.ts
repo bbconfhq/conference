@@ -36,7 +36,7 @@ export const ApplicationLabel = styled('span', {
   textAlign: 'center',
   fontSize: '1rem',
   fontStyle: 'italic',
-})
+});
 
 export const Link = styled('a', {
   display: 'block',
@@ -57,18 +57,18 @@ export const SessionTitle = styled('h2', {
   marginTop: '1.5rem',
   fontSize: '1.5rem',
   textAlign: 'center',
-})
+});
 
 
 export const Divider = styled('div', {
   margin: '2rem 0',
   height: '1px',
   backgroundColor: '#aaa',
-})
+});
 
-export const AboutText = styled('p', {
-    wordBreak: 'keep-all',
-    fontSize: '1.25rem',
-    letterSpacing: '1px',
-    lineHeight: '2rem',
-})
+export const Paragraph = styled('p', {
+  wordBreak: 'keep-all',
+  fontSize: '1.125rem',
+  letterSpacing: '1px',
+  lineHeight: '1.75rem',
+});

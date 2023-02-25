@@ -15,7 +15,7 @@ export const globalStyles = globalCss({
     padding: 0,
     margin: 0,
     boxSizing: 'border-box',
-    fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;"
+    fontFamily: 'Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, \'Helvetica Neue\', \'Segoe UI\', \'Apple SD Gothic Neo\', \'Noto Sans KR\', \'Malgun Gothic\', sans-serif;'
   },
   'html': {
     '@media (prefers-color-scheme: dark)': {
@@ -25,4 +25,4 @@ export const globalStyles = globalCss({
   'html, body': {
     backgroundColor: '$bg'
   }
-})
+});

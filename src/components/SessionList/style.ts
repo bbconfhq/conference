@@ -30,4 +30,4 @@ export const Category = styled('span', {
   color: '#f1f1f1',
 
   fontSize: '0.75rem'
-})
+});

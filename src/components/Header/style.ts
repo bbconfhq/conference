@@ -17,4 +17,4 @@ export const Nav = styled('nav', {
 export const InternalNavContainer = styled('div', {
   display: 'flex',
   gap: '0.5rem',
-})
+});

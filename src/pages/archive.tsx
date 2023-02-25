@@ -1,6 +1,7 @@
-import * as React from "react"
-import Layout from '../components/Layout';
+import * as React from 'react';
+
 import { Title, SessionTitle, Divider } from '../common.styles';
+import Layout from '../components/Layout';
 import SessionList from '../components/SessionList';
 import { useFetchArchive } from '../hooks/useFetchArchive';
 
@@ -16,11 +17,11 @@ const ArchivePage = () => {
           <>
             <SessionTitle>{ data.year }</SessionTitle>
             <SessionList sessions={data.sessions} />
-         </>
+          </>
         )))
       }
     </Layout>
-  )
-}
+  );
+};
 
 export default ArchivePage;
