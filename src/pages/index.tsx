@@ -10,8 +10,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Title>BBConf 2023 Winter</Title>
-      <Time>2023년 4분기 예정</Time>
-      <Location></Location>
+      <Time>2023년 12월 23일 12:00 ~ 19:00</Time>
+      <Location>토즈 양재점</Location>
 
       <Divider />
 
