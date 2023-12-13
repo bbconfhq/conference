@@ -1,6 +1,62 @@
 [
   {
-    "speaker": "",
-    "title": ""
+    "speaker": "머신러닝 어린이",
+    "title": "축사"
+  },
+  {
+    "speaker": "최유빈",
+    "title": "SCUPC 출제 후기"
+  },
+  {
+    "speaker": "김기동",
+    "title": "Code Sandboxing"
+  },
+  {
+    "speaker": "ldh",
+    "title": "LDH의 논믈리에 - SEIVE와 S3-FIFO 캐시 자료구조 소개"
+  },
+  {
+    "speaker": "패트",
+    "title":"질문 잘하는 법"
+  },
+  {
+    "speaker": "Yun",
+    "title":"티스토리에 대한 재밌는 얘기"
+  },
+  {
+    "speaker": "마녀",
+    "title": "JS는 왜 이 모양 이 꼴일까?"
+  },
+  {
+    "speaker": "Lawali",
+    "title": "알고가르쳐준다"
+  },
+  {
+    "speaker": "이야호",
+    "title": "왜 이야호는 개발자가 안되었는가"
+  },
+  {
+    "speaker": "머리좀감고다녀",
+    "title": "러시아어의 이론과 실제"
+  },
+  {
+    "speaker": "ㅌㅐ현",
+    "title": "세계 추천 시스템 대회 Recsys2023에서 엔비디아를 꺾고 세계 7등, 국내 1등 되기까지의 여정"
+  },
+  {
+    "speaker": "나노공학",
+    "title": "함수형 프로그래밍 시작해보기"
+  },
+  {
+    "speaker": "임지환",
+    "title": "PS에서 CP로 넘어가야 하는 이유"
+  },
+  {
+    "speaker": "김거북",
+    "title": "카툰렌더링과 서브컬쳐 컨텐츠 제작"
+  },
+  {
+    "speaker": "박성훈",
+    "title": "<미정>"
   }
 ]
