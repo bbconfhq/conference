@@ -9,8 +9,9 @@ export const Item = styled('li', {
 });
 
 export const Title = styled('span', {
-  display: 'inline-block',
+  display: 'inline',
   fontSize: '1rem',
+  lineHeight: 1.3,
 });
 
 export const Speaker = styled('span' ,{

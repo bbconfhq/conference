@@ -1,5 +1,100 @@
 [
   {
+    "year": "2023 Winter",
+    "sessions": [
+      {
+        "speaker": "머신러닝 어린이",
+        "title": "축사",
+        "category": "",
+        "file_url": ""
+      },
+      {
+        "speaker": "최유빈",
+        "title": "SCUPC 출제 후기",
+        "category": "Algorithm",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EC%B5%9C%EC%9C%A0%EB%B9%88_SCUPC%EC%B6%9C%EC%A0%9C%ED%9B%84%EA%B8%B0_%EB%82%98%EC%81%9C%EB%AC%B8%EC%A0%9C%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.pdf"
+      },
+      {
+        "speaker": "김기동",
+        "title": "Code Sandboxing",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EC%9D%B4%EC%B0%BD%ED%9D%AC_Code_Sandboxing.pdf"
+      },
+      {
+        "speaker": "ldh",
+        "title": "LDH의 논믈리에 - SEIVE와 S3-FIFO 캐시 자료구조 소개",
+        "category": "Algorithm",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/LDH_SIEVE_S3_FIFO_Cache_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_%EC%86%8C%EA%B0%9C.pdf"
+      },
+      {
+        "speaker": "패트",
+        "title":"질문 잘하는 법",
+        "category": "Life",
+        "file_url": ""
+      },
+      {
+        "speaker": "Yun",
+        "title":"블로그에서 검색 유입을 판별하는 원리",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/Yun_%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90%EC%84%9C_%EA%B2%80%EC%83%89_%EC%9C%A0%EC%9E%85%EC%9D%84_%ED%8C%90%EB%B3%84%ED%95%98%EB%8A%94_%EC%9B%90%EB%A6%AC.pdf"
+      },
+      {
+        "speaker": "마녀",
+        "title": "JS는 왜 이 모양 이 꼴일까?",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EB%A7%88%EB%85%80_JS%EB%8A%94_%EC%99%9C_%EC%9D%B4_%EB%AA%A8%EC%96%91%EC%9D%BC%EA%B9%8C.pdf"
+      },
+      {
+        "speaker": "Lawali",
+        "title": "알고가르쳐준다",
+        "category": "Algorithm",
+        "file_url": ""
+      },
+      {
+        "speaker": "이야호",
+        "title": "왜 이야호는 개발자가 안되었는가",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EC%9D%B4%EC%95%BC%ED%98%B8_%EC%99%9C_%EC%9D%B4%EC%95%BC%ED%98%B8%EB%8A%94_%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80_%EC%95%88_%EB%90%98%EC%97%88%EB%8A%94%EA%B0%80.pdf"
+      },
+      {
+        "speaker": "머리좀감고다녀",
+        "title": "러시아어의 이론과 실제",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EC%9D%B4%EC%A0%95%EC%97%B0_%EB%9F%AC%EC%8B%9C%EC%95%84%EC%96%B4%EC%9D%98%EC%9D%B4%EB%A1%A0%EA%B3%BC%EC%8B%A4%EC%A0%9C.pdf"
+      },
+      {
+        "speaker": "ㅌㅐ현",
+        "title": "세계 추천 시스템 대회 Recsys2023에서 엔비디아를 꺾고 세계 7등, 국내 1등 되기까지의 여정",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EC%A0%84%ED%83%9C%ED%98%84_%EC%84%B8%EA%B3%84%20%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%8C%80%ED%9A%8C%20RecSys%202023%EC%97%90%EC%84%9C%20%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%EB%A5%BC%20%EA%BA%BE%EA%B3%A0%20%EC%84%B8%EA%B3%84%207%EB%93%B1%2C%20%EA%B5%AD%EB%82%B4%201%EB%93%B1%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%97%AC%EC%A0%95.pdf"
+      },
+      {
+        "speaker": "나노공학",
+        "title": "함수형 프로그래밍 시작해보기",
+        "category": "Knowledge",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EB%82%98%EB%85%B8%EA%B3%B5%ED%95%99_%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%8B%9C%EC%9E%91%ED%95%B4%EB%B3%B4%EA%B8%B0.pdf"
+      },
+      {
+        "speaker": "임지환",
+        "title": "PS에서 CP로 넘어가야 하는 이유",
+        "category": "Algorithm",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EC%9E%84%EC%A7%80%ED%99%98_whyCP.pdf"
+      },
+      {
+        "speaker": "김거북",
+        "title": "카툰렌더링과 서브컬쳐 컨텐츠 제작",
+        "category": "Knowledge",
+        "file_url": ""
+      },
+      {
+        "speaker": "박성훈",
+        "title": "동아리 회장직 짬처리 당한 후기",
+        "category": "Life",
+        "file_url": "https://ftp.yuni.dev/bbconf/2023-winter/%EB%B0%95%EC%84%B1%ED%9B%88_%EB%8F%99%EC%95%84%EB%A6%AC%20%ED%9A%8C%EC%9E%A5%EC%A7%81%20%EC%A7%AC%EC%B2%98%EB%A6%AC%20%EB%8B%B9%ED%95%9C%20%ED%9B%84%EA%B8%B0.pdf"
+      }
+    ]
+  },
+  {
     "year": "2022 Winter",
     "sessions": [      
       {
