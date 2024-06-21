@@ -26,8 +26,8 @@ export const Time = styled('time', {
 export const Location = styled('span', {
   display: 'block',
   textAlign: 'center',
-  fontSize: '1.25rem'
-
+  fontSize: '1.25rem',
+  marginTop: '0.5rem',
 });
 
 export const ApplicationLabel = styled('span', {
