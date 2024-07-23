@@ -4,7 +4,7 @@ import { Title, Time, Location, SessionTitle, Divider } from '../common.styles';
 import Layout from '../components/Layout';
 import SessionList from '../components/SessionList';
 import { useFetchSession } from '../hooks/useFetchSession';
-import {SessionPlaceholder} from '../components/SessionPlaceholder';
+// import {SessionPlaceholder} from '../components/SessionPlaceholder';
 
 const IndexPage = () => {
   const sessions = useFetchSession().allSessionsJson.nodes;
@@ -15,15 +15,14 @@ const IndexPage = () => {
       <Location>
         <a href='https://naver.me/Fn2s6XYI' target='_blank' rel='noreferrer'>
           Open UP Playground
-        </a>{' '}
-        (예정)
+        </a>
       </Location>
 
       <Divider />
 
       <SessionTitle>Sessions</SessionTitle>
-      {/*<SessionList sessions={sessions} />*/}
-      <SessionPlaceholder>- TBA -</SessionPlaceholder>
+      <SessionList sessions={sessions} />
+      {/*<SessionPlaceholder>- TBA -</SessionPlaceholder>*/}
     </Layout>
   );
 };
