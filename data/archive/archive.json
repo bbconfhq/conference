@@ -1,5 +1,70 @@
 [
   {
+    "year": "2024 Summer",
+    "sessions": [
+      {
+        "speaker": "소다",
+        "title": "디스코드의 채팅 검색은 왜 이런가",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%ec%99%9c%20discord%20%ea%b2%80%ec%83%89%20%ea%b8%b0%eb%8a%a5%ec%9d%80%20%ec%9d%b4%eb%94%b0%ea%b5%ac%ec%9d%b8%ea%b0%80.pdf"
+      },
+      {
+        "speaker": "불칸",
+        "title": "홈서버 1년 사용기와 셋팅에 대하여",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%b6%88%ec%b9%b8_%ed%99%88%ec%84%9c%eb%b2%84%201%eb%85%84%20%ec%82%ac%ec%9a%a9%ea%b8%b0%ec%99%80%20%ec%85%8b%ed%8c%85%ec%97%90%20%eb%8c%80%ed%95%b4%ec%84%9c.pdf"
+      },
+      {
+        "speaker": "마녀",
+        "title": "블로그로 진짜 개발자처럼 보이는 법",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%a7%88%eb%85%80_%eb%b8%94%eb%a1%9c%ea%b7%b8%eb%a1%9c_%ec%a7%84%ec%a7%9c_%ea%b0%9c%eb%b0%9c%ec%9e%90%ec%b2%98%eb%9f%bc_%eb%b3%b4%ec%9d%b4%eb%8a%94_%eb%b2%95.pdf"
+      },
+      {
+        "speaker": "머리",
+        "title": "아름답고 신비로운 리스프의 세계",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%a8%b8%eb%a6%ac_LispStory.pdf"
+      },
+      {
+        "speaker": "김기동",
+        "title": "신입 개발자의 고민들",
+        "category": "Life",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%ea%b9%80%ea%b8%b0%eb%8f%99_%ec%8b%a0%ec%9e%85%20%ea%b0%9c%eb%b0%9c%ec%9e%90%eb%a5%bc%20%ec%9c%84%ed%95%9c%20%eb%a9%98%ed%83%88%20%eb%aa%a8%eb%8d%b8.pdf"
+      },
+      {
+        "speaker": "패트",
+        "title": "dev container 찬양하기",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%ed%8c%a8%ed%8a%b8_devcontainer%20%ec%b0%ac%ec%96%91%ed%95%98%ea%b8%b0.pptx"
+      },
+      {
+        "speaker": "Koder",
+        "title": "옵시디언 vs Notion",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%b0%95%ec%84%b1%ed%9b%88_%ec%98%b5%ec%8b%9c%eb%94%94%ec%96%b8%20vs%20%eb%85%b8%ec%85%98.pdf"
+      },
+      {
+        "speaker": "Yun",
+        "title": "원주율 400자리 외우기",
+        "category": "Algorithm",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%ec%9c%a4_%ed%8c%8c%ec%9d%b4%20400%ec%9e%90%eb%a6%ac%20%ec%99%b8%ec%9a%b0%ea%b8%b0.mp4"
+      },
+      {
+        "speaker": "석환",
+        "title": "GUI가 존재하지 않는 세상에 게임 올리기",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%ec%84%9d%ed%99%98_GUI%ea%b0%80%20%ec%a1%b4%ec%9e%ac%ed%95%98%ec%a7%80%20%ec%95%8a%eb%8a%94%20%ec%84%b8%ec%83%81%ec%97%90%20%ea%b2%8c%ec%9e%84%20%ec%98%ac%eb%a6%ac%ea%b8%b0.pdf"
+      },
+      {
+        "speaker": "냐하",
+        "title": "1인 앱개발 여정",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%83%90%ed%95%98_1%ec%9d%b8%ec%95%b1%ea%b0%9c%eb%b0%9c%ec%97%ac%ec%a0%95.pptx"
+      }
+    ]
+  },
+  {
     "year": "2023 Winter",
     "sessions": [
       {
