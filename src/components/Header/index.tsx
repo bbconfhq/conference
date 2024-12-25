@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <InternalNavContainer>
           <Link to={'/archive'}>Archive</Link>
-          <Link to={'/guidelines'}>Guidelines</Link>
+          {/* <Link to={'/guidelines'}>Guidelines</Link> */}
           <Link to={'/about'}>About</Link>
         </InternalNavContainer>
       </Nav>
