@@ -21,7 +21,7 @@ const SessionList: React.FC<Props> = ({ sessions }) => {
             <Item key={`${session.speaker}-${session.title}}`}>
               {'category' in session && session?.category && <Category>{session.category}</Category>}
               {'file_url' in session && session.file_url
-                ? <Title as={'a'} href={session.file_url}>{session.title}</Title>
+                ? <Title as={'a'} href={session.file_url} target={'_blank'}>{session.title}</Title>
                 : <Title>{session.title}</Title>
               }
               <Speaker>{session.speaker}</Speaker>
