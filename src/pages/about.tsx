@@ -17,6 +17,18 @@ const AboutPage = () => {
 
       <Divider />
 
+      <Paragraph>
+      발표 세션을 선정할 때는 아래 카테고리의 세션이 조화를 이루도록 배치합니다.
+      <ul>
+        <li>Knowledge: 개발과 관련한 주제</li>
+        <li>Life: 개발자의 삶, 혹은 그 주변에 대한 주제</li>
+        <li>Algorithm: 알고리즘에 대한 주제</li>
+        <li>Project: 특정 대상을 개발하거나 탐구했던 프로젝트에 대한 주제</li>
+      </ul>
+      </Paragraph>
+
+      <Divider />
+
       <Title subTitle={true}>Community</Title>
       <Paragraph>
         백준푸는방은 알고리즘 교육 및 학습과 SW 개발 경험 공유를 전문으로 하는 오픈카톡방 기반의 커뮤니티입니다.
