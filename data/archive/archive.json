@@ -1,5 +1,88 @@
 [
   {
+    "year": "2024 Winter",
+    "sessions": [
+      {
+        "speaker": "박성훈",
+        "title": "키보드 다이어트 시키기",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%eb%b0%95%ec%84%b1%ed%9b%88_%ed%82%a4%eb%b3%b4%eb%93%9c%20%eb%8b%a4%ec%9d%b4%ec%96%b4%ed%8a%b8%20%ec%8b%9c%ed%82%a4%ea%b8%b0.pdf"
+      },
+      {
+        "speaker": "이정연",
+        "title": "당신이 몰랐던 객체지향: 다중 디스패치",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ec%9d%b4%ec%a0%95%ec%97%b0_%eb%8b%b9%ec%8b%a0%ec%9d%b4%20%eb%aa%b0%eb%9e%90%eb%8d%98%20%ea%b0%9d%ec%b2%b4%ec%a7%80%ed%96%a5%20%eb%8b%a4%ec%a4%91%20%eb%94%94%ec%8a%a4%ed%8c%a8%ec%b9%98.pdf"
+      },
+      {
+        "speaker": "흰다대",
+        "title": "이직 면접 후기",
+        "category": "Life",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ed%9d%b0%eb%8b%a4%eb%8c%80_%ec%9d%b4%ec%a7%81%20%eb%a9%b4%ec%a0%91%20%ed%9b%84%ea%b8%b0.pptx"
+      },
+      {
+        "speaker": "Pengoose",
+        "title": "옆집 뽀삐도 시작하는 오픈소스 입문",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/Pengoose_%ec%98%86%ec%a7%91%20%eb%bd%80%ec%82%90%eb%8f%84%20%ec%8b%9c%ec%9e%91%ed%95%98%eb%8a%94%20%ec%98%a4%ed%94%88%ec%86%8c%ec%8a%a4%20%ec%9e%85%eb%ac%b8.pdf"
+      },
+      {
+        "speaker": "김성현",
+        "title": "브라우저에 google.com을 치면 생기는 일까지 생긴 일",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ea%b9%80%ec%84%b1%ed%98%84_%eb%b8%8c%eb%9d%bc%ec%9a%b0%ec%a0%80%ec%97%90%20google%ec%9d%84%20%ec%b9%98%eb%a9%b4%20%ec%83%9d%ea%b8%b0%eb%8a%94%20%ec%9d%bc%ea%b9%8c%ec%a7%80%20%ec%83%9d%ea%b8%b4%20%ec%9d%bc.pdf"
+      },
+      {
+        "speaker": "이창희",
+        "title": "Color Quantization",
+        "category": "Knowledge",
+        "file_url": ""
+      },
+      {
+        "speaker": "패트",
+        "title": "IOCCC 엔트리 뜯어보기",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ed%8c%a8%ed%8a%b8_IOCCC%20%ec%97%94%ed%8a%b8%eb%a6%ac%20%eb%9c%af%ec%96%b4%eb%b3%b4%ea%b8%b0.pptx"
+      },
+      {
+        "speaker": "보더콜리",
+        "title": "아무도 하지 않는 게임에서 딥러닝까지 아득바득 써가며 스코어보드를 점령하기까지",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%eb%b3%b4%eb%8d%94%ec%bd%9c%eb%a6%ac_%ec%95%84%eb%ac%b4%eb%8f%84%20%ed%95%98%ec%a7%80%20%ec%95%8a%eb%8a%94%20%ea%b2%8c%ec%9e%84%ec%97%90%ec%84%9c%20%eb%94%a5%eb%9f%ac%eb%8b%9d%ea%b9%8c%ec%a7%80%20%ec%95%84%eb%93%9d%eb%b0%94%eb%93%9d%20%ec%8d%a8%ea%b0%80%eb%a9%b0%20%ec%8a%a4%ec%bd%94%ec%96%b4%eb%b3%b4%eb%93%9c%eb%a5%bc%20%ec%a0%90%eb%a0%b9%ed%95%98%ea%b8%b0%ea%b9%8c%ec%a7%80.pdf"
+      },
+      {
+        "speaker": "Junah201",
+        "title": "AWS Lambda + DynamoDB로 월 1달러로 10000개 서버에 봇 배포하기",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/Junah201_AWS%20Lambda%20+%20DynamoDB%eb%a1%9c%20%ec%9b%94%201%eb%8b%ac%eb%9f%ac%eb%a1%9c%2010000%ea%b0%9c%20%ec%84%9c%eb%b2%84%ec%97%90%20%eb%b4%87%20%eb%b0%b0%ed%8f%ac%ed%95%98%ea%b8%b0.pptx"
+      },
+      {
+        "speaker": "이강민",
+        "title": "Manim을 배워보자",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ec%9d%b4%ea%b0%95%eb%af%bc_Manim%ec%9d%84%20%eb%b0%b0%ec%9b%8c%eb%b3%b4%ec%9e%90.pptx"
+      },
+      {
+        "speaker": "kevinlys00",
+        "title": "LaTeX로 문서 만들기",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/kevinlys00_LaTeX%eb%a1%9c%20%eb%ac%b8%ec%84%9c%20%eb%a7%8c%eb%93%a4%ea%b8%b0.pdf"
+      },
+      {
+        "speaker": "김지나",
+        "title": "지잡대에서 살아남기",
+        "category": "Life",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ea%b9%80%ec%a7%80%eb%82%98_%ec%a7%80%ec%9e%a1%eb%8c%80%ec%97%90%ec%84%9c%20%ec%82%b4%ec%95%84%eb%82%a8%ea%b8%b0.pptx"
+      },
+      {
+        "speaker": "Yun",
+        "title": "Short Coding For Hello, world!",
+        "category": "Knowledge",
+        "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/Yun_Short%20Coding%20For%20Hello,%20world!.pdf"
+      }
+    ]
+  },
+  {
     "year": "2024 Summer",
     "sessions": [
       {
