@@ -1,54 +1,6 @@
 [
   {
-    "speaker": "박성훈",
-    "title": "키보드 다이어트 시키기"
-  },
-  {
-    "speaker": "이정연",
-    "title": "당신이 몰랐던 객체지향: 다중 디스패치"
-  },
-  {
-    "speaker": "흰다대",
-    "title": "이직 면접 후기"
-  },
-  {
-    "speaker": "Pengoose",
-    "title": "옆집 뽀삐도 시작하는 오픈소스 입문"
-  },
-  {
-    "speaker": "김성현",
-    "title": "브라우저에 google.com을 치면 생기는 일까지 생긴 일"
-  },
-  {
-    "speaker": "이창희",
-    "title": "Color Quantization"
-  },
-  {
-    "speaker": "패트",
-    "title": "IOCCC 엔트리 뜯어보기"
-  },
-  {
-    "speaker": "보더콜리",
-    "title": "아무도 하지 않는 게임에서 딥러닝까지 아득바득 써가며 스코어보드를 점령하기까지"
-  },
-  {
-    "speaker": "Junah201",
-    "title": "AWS Lambda + DynamoDB로 월 1달러로 10000개 서버에 봇 배포하기"
-  },
-  {
-    "speaker": "이강민",
-    "title": "Manim을 배워보자"
-  },
-  {
-    "speaker": "kevinlys00",
-    "title": "LaTeX로 문서 만들기"
-  },
-  {
-    "speaker": "김지나",
-    "title": "지잡대에서 살아남기"
-  },
-  {
-    "speaker": "Yun",
-    "title": "Short Coding For Hello, world!"
+    "speaker": "",
+    "title": ""
   }
 ]
