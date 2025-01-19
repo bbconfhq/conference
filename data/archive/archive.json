@@ -5,7 +5,7 @@
       {
         "speaker": "박성훈",
         "title": "키보드 다이어트 시키기",
-        "category": "Knowledge",
+        "category": "Life",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%eb%b0%95%ec%84%b1%ed%9b%88_%ed%82%a4%eb%b3%b4%eb%93%9c%20%eb%8b%a4%ec%9d%b4%ec%96%b4%ed%8a%b8%20%ec%8b%9c%ed%82%a4%ea%b8%b0.pdf"
       },
       {
@@ -35,7 +35,7 @@
       {
         "speaker": "이창희",
         "title": "Color Quantization",
-        "category": "Knowledge",
+        "category": "Algorithm",
         "file_url": ""
       },
       {
@@ -47,13 +47,13 @@
       {
         "speaker": "보더콜리",
         "title": "아무도 하지 않는 게임에서 딥러닝까지 아득바득 써가며 스코어보드를 점령하기까지",
-        "category": "Knowledge",
+        "category": "Project",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%eb%b3%b4%eb%8d%94%ec%bd%9c%eb%a6%ac_%ec%95%84%eb%ac%b4%eb%8f%84%20%ed%95%98%ec%a7%80%20%ec%95%8a%eb%8a%94%20%ea%b2%8c%ec%9e%84%ec%97%90%ec%84%9c%20%eb%94%a5%eb%9f%ac%eb%8b%9d%ea%b9%8c%ec%a7%80%20%ec%95%84%eb%93%9d%eb%b0%94%eb%93%9d%20%ec%8d%a8%ea%b0%80%eb%a9%b0%20%ec%8a%a4%ec%bd%94%ec%96%b4%eb%b3%b4%eb%93%9c%eb%a5%bc%20%ec%a0%90%eb%a0%b9%ed%95%98%ea%b8%b0%ea%b9%8c%ec%a7%80.pdf"
       },
       {
         "speaker": "Junah201",
         "title": "AWS Lambda + DynamoDB로 월 1달러로 10000개 서버에 봇 배포하기",
-        "category": "Knowledge",
+        "category": "Project",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-winter/Junah201_AWS%20Lambda%20+%20DynamoDB%eb%a1%9c%20%ec%9b%94%201%eb%8b%ac%eb%9f%ac%eb%a1%9c%2010000%ea%b0%9c%20%ec%84%9c%eb%b2%84%ec%97%90%20%eb%b4%87%20%eb%b0%b0%ed%8f%ac%ed%95%98%ea%b8%b0.pptx"
       },
       {
@@ -94,13 +94,13 @@
       {
         "speaker": "불칸",
         "title": "홈서버 1년 사용기와 셋팅에 대하여",
-        "category": "Knowledge",
+        "category": "Project",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%b6%88%ec%b9%b8_%ed%99%88%ec%84%9c%eb%b2%84%201%eb%85%84%20%ec%82%ac%ec%9a%a9%ea%b8%b0%ec%99%80%20%ec%85%8b%ed%8c%85%ec%97%90%20%eb%8c%80%ed%95%b4%ec%84%9c.pdf"
       },
       {
         "speaker": "마녀",
         "title": "블로그로 진짜 개발자처럼 보이는 법",
-        "category": "Knowledge",
+        "category": "Project",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%a7%88%eb%85%80_%eb%b8%94%eb%a1%9c%ea%b7%b8%eb%a1%9c_%ec%a7%84%ec%a7%9c_%ea%b0%9c%eb%b0%9c%ec%9e%90%ec%b2%98%eb%9f%bc_%eb%b3%b4%ec%9d%b4%eb%8a%94_%eb%b2%95.pdf"
       },
       {
@@ -130,19 +130,19 @@
       {
         "speaker": "Yun",
         "title": "원주율 400자리 외우기",
-        "category": "Algorithm",
+        "category": "Knowledge",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%ec%9c%a4_%ed%8c%8c%ec%9d%b4%20400%ec%9e%90%eb%a6%ac%20%ec%99%b8%ec%9a%b0%ea%b8%b0.mp4"
       },
       {
         "speaker": "석환",
         "title": "GUI가 존재하지 않는 세상에 게임 올리기",
-        "category": "Knowledge",
+        "category": "Project",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%ec%84%9d%ed%99%98_GUI%ea%b0%80%20%ec%a1%b4%ec%9e%ac%ed%95%98%ec%a7%80%20%ec%95%8a%eb%8a%94%20%ec%84%b8%ec%83%81%ec%97%90%20%ea%b2%8c%ec%9e%84%20%ec%98%ac%eb%a6%ac%ea%b8%b0.pdf"
       },
       {
         "speaker": "냐하",
         "title": "1인 앱개발 여정",
-        "category": "Knowledge",
+        "category": "Project",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%83%90%ed%95%98_1%ec%9d%b8%ec%95%b1%ea%b0%9c%eb%b0%9c%ec%97%ac%ec%a0%95.pptx"
       }
     ]
@@ -519,7 +519,7 @@
       {
         "speaker": "The Salamander",
         "title": "Christmas CTF Write Up",
-        "category": "Life",
+        "category": "Knowledge",
         "file_url": "https://bbconfwebdav.vulcan.site/bbconf/2019-winter/%5BThe%20Salamander%5DChristmas%20CTF%20Write%20Up.pptx"
       },
       {
