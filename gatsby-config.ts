@@ -10,6 +10,13 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'G-MJ5PMT4E31',
+        head: true,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-json',
     {
