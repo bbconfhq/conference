@@ -2,7 +2,7 @@ import { styled } from './stitches.config';
 
 export const Title = styled('h1', {
   marginBottom: '1rem',
-  fontSize: '2.5rem',
+  fontSize: '2rem',
   fontWeight: 400,
   textAlign: 'center',
 
@@ -28,6 +28,13 @@ export const Location = styled('span', {
   textAlign: 'center',
   fontSize: '1.25rem',
   marginTop: '0.5rem',
+});
+
+export const Farewell = styled('span', {
+  display: 'block',
+  textAlign: 'center',
+  fontSize: '1rem',
+  marginTop: '1rem',
 });
 
 export const ApplicationLabel = styled('span', {
