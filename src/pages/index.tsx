@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Title>BBConf 2025 Winter</Title>
-      <Time>2026년 1월 18일 일요일 12:00 ~ 18:00</Time>
+      <Time>2026년 1월 18일 일요일 13:00 ~ 18:00</Time>
       <Location>
         <a href='https://naver.me/Fn2s6XYI' target='_blank' rel='noreferrer'>
           Open UP Playground
