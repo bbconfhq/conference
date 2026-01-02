@@ -21,7 +21,6 @@ const IndexPage = () => {
 
       <SessionTitle>Sessions</SessionTitle>
       <SessionList sessions={sessions} />
-      {/* <SessionPlaceholder>- TBA -</SessionPlaceholder> */}
     </Layout>
   );
 };
