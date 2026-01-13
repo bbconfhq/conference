@@ -9,20 +9,18 @@ const IndexPage = () => {
   const sessions = useFetchSession().allSessionsJson.nodes;
   return (
     <Layout>
-      <Title>BBConf</Title>
-      <Time>2018 ― 2025</Time>
-      <Farewell>thank you, good bye!</Farewell>
-      {/* <Location>
+      <Title>BBConf 2025 Winter</Title>
+      <Time>2026년 1월 18일 일요일 11:00 ~ 19:00</Time>
+      <Location>
         <a href='https://naver.me/Fn2s6XYI' target='_blank' rel='noreferrer'>
           Open UP Playground
         </a>
-      </Location> */}
+      </Location>
 
       <Divider />
 
-      {/* <SessionTitle>Sessions</SessionTitle> */}
-      {/* <SessionList sessions={sessions} /> */}
-      {/* <SessionPlaceholder>- TBA -</SessionPlaceholder> */}
+      <SessionTitle>Sessions</SessionTitle>
+      <SessionList sessions={sessions} />
     </Layout>
   );
 };
